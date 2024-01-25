@@ -25,15 +25,9 @@ body {
     border-radius: 8px;
   }
 
-  .emoji p{
-    display: flex;
-    word-wrap: wrap;
-  }
-  
   .icon {
     font-size: 4rem;
-    display: flex;
-    justify-content: center;
+    align-self: center;
     order: -1;
   }
 
@@ -43,3 +37,5 @@ body {
     grid-template-rows: auto auto;
     gap: 15px;
   }
+
+  /* I have no idea why the two right grid boxes titles are misaligned with the left ones!! */
